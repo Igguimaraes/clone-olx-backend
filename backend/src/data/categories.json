@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Bebês",
+    "slug": "bebes",
+    "img": "http://localhost:501/images/bebes.png"
+  },
+  {
+    "id": 2,
+    "name": "Carros",
+    "slug": "carros",
+    "img": "http://localhost:501/images/carros.png"
+  },
+  {
+    "id": 3,
+    "name": "Eletrônicos",
+    "slug": "eletronicos",
+    "img": "http://localhost:501/images/eletronicos.png"
+  },
+  {
+    "id": 4,
+    "name": "Roupas",
+    "slug": "roupas",
+    "img": "http://localhost:501/images/roupas.png"
+  }
+]

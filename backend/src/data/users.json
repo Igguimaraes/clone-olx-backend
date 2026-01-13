@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "name": "João Silva",
+    "email": "joaor@teste.com",
+    "password": "1234",
+    "phone": "11999999999",
+    "avatar": "https://i.pravatar.cc/150?img=3",
+    "state": "MG"
+  },
+  {
+    "id": 2,
+    "name": "Igor Guimarães",
+    "email": "igor@teste1.com",
+    "password": "1234",
+    "phone": "11999999999",
+    "avatar": "https://i.pravatar.cc/150?img=4",
+    "state": "SP"
+  },
+  {
+    "id": 3,
+    "name": "Igor Guimarães",
+    "email": "igor@teste.com",
+    "password": "1234",
+    "state": "SP",
+    "token": "token_1736798xxxxx"
+  }
+]

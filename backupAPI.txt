@@ -1,0 +1,112 @@
+import Cookies from "js-cookie";
+import qs from "qs";
+
+const BASEAPI = "http://localhost:501";
+
+/* =========================
+   Headers com token
+   ========================= */
+const getAuthHeaders = () => {
+  const token = Cookies.get("token");
+  return token ? { Authorization: `Bearer ${token}` } : {};
+};
+
+/* =========================
+   FETCH POST
+   ========================= */
+const apiFetchPost = async (endpoint, body = {}) => {
+  const res = await fetch(BASEAPI + endpoint, {
+    method: "POST",
+    headers: {
+      Accept: "application/json",
+      "Content-Type": "application/json",
+      ...getAuthHeaders(),
+    },
+    body: JSON.stringify(body),
+  });
+
+  return await res.json();
+};
+
+/* =========================
+   FETCH GET
+   ========================= */
+const apiFetchGet = async (endpoint, params = {}) => {
+  const query = qs.stringify(params);
+  const url = query
+    ? `${BASEAPI}${endpoint}?${query}`
+    : `${BASEAPI}${endpoint}`;
+  const res = await fetch(url, {
+    method: "GET",
+    headers: {
+      ...getAuthHeaders(),
+    },
+  });
+
+  return await res.json();
+};
+
+/* =========================
+   FETCH FILE (UPLOAD)
+   ========================= */
+const apiFetchFile = async (endpoint, body) => {
+  const res = await fetch(BASEAPI + endpoint, {
+    method: "POST",
+    headers: {
+      ...getAuthHeaders(),
+    },
+    body,
+  });
+
+  return await res.json();
+};
+
+/* =========================
+   API METHODS
+   ========================= */
+const Api = {
+  /* 🔐 AUTH */
+  login: async (email, password) => {
+    return await apiFetchPost("/user/signin", { email, password });
+  },
+
+  register: async (name, email, password, stateLoc) => {
+    return await apiFetchPost("/user/signup", {
+      name,
+      email,
+      password,
+      state: stateLoc,
+    });
+  },
+
+  /* 🌎 STATES & CATEGORIES */
+  getState: async () => {
+    const json = await apiFetchGet("/states");
+    return json.states;
+  },
+
+  getCategories: async () => {
+    const json = await apiFetchGet("/categories");
+    return json.categories;
+  },
+
+  /* 📢 ADS */
+  getAds: async (options) => {
+    return await apiFetchGet("/ad/list", options);
+  },
+
+  getAd: async (id, other = false) => {
+    return await apiFetchGet("/ad/item", { id, other });
+  },
+
+  addAd: async (fData) => {
+    return await apiFetchFile("/ad/add", fData);
+  },
+
+  /* 👤 MY ACCOUNT */
+  getUser: async () => {
+    return await apiFetchGet("/user/me");
+  },
+};
+
+export default Api;

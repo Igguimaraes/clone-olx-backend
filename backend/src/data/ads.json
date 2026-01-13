@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Notebook Dell i5",
+    "price": {
+      "value": 2500,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "description": "Notebook em ótimo estado, 16GB RAM, SSD 512GB.",
+    "createdAt": "2025-01-06",
+    "views": 340
+  },
+  {
+    "id": 2,
+    "title": "iPhone 11 64GB",
+    "price": {
+      "value": 3200,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1638951003100-2cc4550a9737?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "createdAt": "2025-01-02",
+    "views": 36
+  },
+  {
+    "id": 3,
+    "title": "TV Samsung 50 4K",
+    "price": {
+      "value": 2800,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1681236323432-3df82be0c1b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "createdAt": "2025-01-02",
+    "views": 48
+  },
+  {
+    "id": 4,
+    "title": "Sofá 3 lugares",
+    "price": {
+      "value": 1200,
+      "priceNegotiable": false
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "moveis",
+    "state": "MG",
+    "createdAt": "2025-01-03",
+    "views": 122
+  },
+  {
+    "id": 5,
+    "title": "Tablet Apple G4",
+    "price": {
+      "value": null,
+      "priceNegotiable": true
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1627405016867-4d59bd6b4747?q=80&w=636&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "Em bom estado de conservação!.",
+    "views": 114,
+    "createdAt": "2025-01-05"
+  },
+  {
+    "id": 8,
+    "title": "Monitor LG 27 Full HD",
+    "price": {
+      "value": 1100,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "Monitor 27 polegadas, IPS, excelente estado.",
+    "createdAt": "2025-01-07",
+    "views": 226
+  },
+  {
+    "id": 10,
+    "title": "Notebook Lenovo Ryzen 7",
+    "price": {
+      "value": 4200,
+      "priceNegotiable": false
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "16GB RAM, SSD 1TB, ideal para trabalho e estudos.",
+    "createdAt": "2025-01-08",
+    "views": 442
+  },
+  {
+    "id": 11,
+    "title": "Smartwatch Samsung",
+    "price": {
+      "value": 850,
+      "priceNegotiable": true
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "createdAt": "2025-01-08",
+    "views": 265
+  },
+  {
+    "id": 1,
+    "title": "Notebook Dell i5",
+    "price": {
+      "value": 2500,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "description": "Notebook em ótimo estado, 16GB RAM, SSD 512GB.",
+    "createdAt": "2025-01-06",
+    "views": 340
+  },
+  {
+    "id": 2,
+    "title": "iPhone 11 64GB",
+    "price": {
+      "value": 3200,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1638951003100-2cc4550a9737?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "createdAt": "2025-01-02",
+    "views": 36
+  },
+  {
+    "id": 3,
+    "title": "TV Samsung 50 4K",
+    "price": {
+      "value": 2800,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1681236323432-3df82be0c1b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "createdAt": "2025-01-02",
+    "views": 48
+  },
+  {
+    "id": 4,
+    "title": "Sofá 3 lugares",
+    "price": {
+      "value": 1200,
+      "priceNegotiable": false
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "moveis",
+    "state": "MG",
+    "createdAt": "2025-01-03",
+    "views": 120
+  },
+  {
+    "id": 5,
+    "title": "Tablet Apple G4",
+    "price": {
+      "value": null,
+      "priceNegotiable": true
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1627405016867-4d59bd6b4747?q=80&w=636&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "Em bom estado de conservação!.",
+    "views": 114,
+    "createdAt": "2025-01-05"
+  },
+  {
+    "id": 8,
+    "title": "Monitor LG 27 Full HD",
+    "price": {
+      "value": 1100,
+      "priceNegotiable": false
+    },
+    "userId": 1,
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "Monitor 27 polegadas, IPS, excelente estado.",
+    "createdAt": "2025-01-07",
+    "views": 226
+  },
+  {
+    "id": 10,
+    "title": "Notebook Lenovo Ryzen 7",
+    "price": {
+      "value": 4200,
+      "priceNegotiable": false
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+    ],
+    "category": "eletronicos",
+    "state": "SP",
+    "description": "16GB RAM, SSD 1TB, ideal para trabalho e estudos.",
+    "createdAt": "2025-01-08",
+    "views": 440
+  },
+  {
+    "id": 11,
+    "title": "Smartwatch Samsung",
+    "price": {
+      "value": 850,
+      "priceNegotiable": true
+    },
+    "userId": 2,
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    ],
+    "category": "eletronicos",
+    "state": "MG",
+    "createdAt": "2025-01-08",
+    "views": 258
+  }
+]
